@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Support Modules feature.
+ */
+
+include_once 'support_modules.features.inc';

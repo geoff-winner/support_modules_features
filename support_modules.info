@@ -1,0 +1,17 @@
+name = Support Modules
+description = simple contact and recipe form alterations
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = support_modules
+dependencies[] = features
+dependencies[] = simple_contact
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_ingredients
+features[field_base][] = field_instructions
+features[field_instance][] = node-recipe-body
+features[field_instance][] = node-recipe-field_ingredients
+features[field_instance][] = node-recipe-field_instructions
+features[node][] = recipe
